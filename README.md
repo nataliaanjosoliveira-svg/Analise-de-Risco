@@ -11,7 +11,7 @@ Empresas e instituições financeiras processam milhares de transações diariam
 1. **Falsos Positivos Elevados:** Regras rígidas (ex: *bloquear tudo acima de R$ 500 de madrugada*) impactam negativamente a experiência de clientes legítimos.
 2. **Ponto Cego para Padrões Complexos:** Fraudes atípicas e comportamentos anômalos multivariados passam despercebidos por regras condicionais simples.
 
-### **A Solução**
+### 💡 A Solução
 Este projeto propõe uma **abordagem híbrida** que combina:
 - **Rule-Based Engine (Motor de Regras):** Classificação imediata baseada em políticas operacionais de risco.
 - **Machine Learning Não Supervisionado:** Detecção de anomalias com **Isolation Forest**, capaz de isolar pontos fora do padrão avaliando múltiplas variáveis simultaneamente, sem necessidade de dados previamente rotulados.
